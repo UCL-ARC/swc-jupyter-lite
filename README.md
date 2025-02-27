@@ -1,14 +1,25 @@
-# JupyterLite Demo
+# JupyterLite for Software Carpentries Python lesson
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://github-pages.arc.ucl.ac.uk/swc-jupyter-lite)
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+[JupyterLite](https://jupyterlite.readthedocs.io/en/stable/index.html) deployed as a static site to GitHub Pages,
+for use as a backup Jupyter Lab interface when delivering training courses using material from
+[_Programming with Python_ Software Carpentries](https://swcarpentry.github.io/python-novice-inflammation/index.html) lesson,
+for participants who have trouble setting up dependencies locally.
+
+The JupyterLite instance is set up with required dependencies for covering all episodes in lesson
+- Python kernel (Pyodide)
+- Numpy
+- Matplotlib
+
+The deployment is pre-loaded with the data and code in the [lesson materials](https://swcarpentry.github.io/python-novice-inflammation/index.html#obtain-lesson-materials).
+The lesson material has been developed by and copyright is owned by [The Carpentries](https://carpentries.org/)
+and is released under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/)
+and all example code is available under a [MIT license](https://opensource.org/licenses/mit-license.html).
 
 ## ✨ Try it in your browser ✨
 
-➡️ **https://jupyterlite.github.io/demo**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+➡️ **https://github-pages.arc.ucl.ac.uk/swc-jupyter-lite)**
 
 ## Requirements
 
@@ -16,22 +27,3 @@ JupyterLite is being tested against modern web browsers:
 
 - Firefox 90+
 - Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
-
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
-
-
