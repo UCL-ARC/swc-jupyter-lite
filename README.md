@@ -19,7 +19,7 @@ and all example code is available under a [MIT license](https://opensource.org/l
 
 ## ✨ Try it in your browser ✨
 
-➡️ **https://github-pages.arc.ucl.ac.uk/swc-jupyter-lite)**
+➡️ **https://github-pages.arc.ucl.ac.uk/swc-jupyter-lite**
 
 ## Requirements
 
