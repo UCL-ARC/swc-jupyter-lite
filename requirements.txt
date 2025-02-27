@@ -7,8 +7,8 @@ notebook~=7.3.2
 jupyterlite-pyodide-kernel==0.5.0
 
 # Language support (optional)
-jupyterlab-language-pack-fr-DE
-jupyterlab-language-pack-fr-ES
+jupyterlab-language-pack-de-DE
+jupyterlab-language-pack-es-ES
 jupyterlab-language-pack-fr-FR
 jupyterlab-language-pack-zh-CN
 
